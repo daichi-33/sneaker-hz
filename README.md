@@ -1,24 +1,37 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション名
+スニーカーヘッズ
 
-Things you may want to cover:
+# アプリケーションの概要
+スニーカー情報の共有アプリを作成しました。<br>
+このアプリでは、スニーカーに関する投稿とスニーカーの売買ができる機能を実装しました。<br>
 
-* Ruby version
+# URL
+[Sneaker-Hz URL](https://sneaker-hz.herokuapp.com/)
 
-* System dependencies
+# テスト用アカウント
 
-* Configuration
 
-* Database creation
+# 利用方法
+ユーザーを新規登録してサービスを利用することができるようになります。スニーカーの購入・紹介等をすることができる投稿機能、
 
-* Database initialization
+# 目指した課題解決
+現在スニーカー情報の共有ツールは数多くありますが、どれもアプリ自体の不特定多数と繋がることができ、情報共有できることを目的にしていると思います。<br>
+そこで、自分の周りにもスニーカー好きの友だちが多くいることをヒントに、自分の周りのスニーカーを好きな人を対象とし、小規模なコミュニティを作ることができれば<br>
+面白くなるのではないかと考え、このアプリを作成しました。<br>
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+# 洗い出した要件
+サインイン・ログイン・ログアウト機能、ユーザー詳細機能、写真付投稿機能、投稿編集機能、投稿削除機能、コメント一覧画面、コメント投稿機能
 
-* Deployment instructions
+# 実装した機能についての画像やGIFおよびその説明について
+ユーザー管理機能<br>
 
-* ...
+
+# 実装予定の機能
+スニーカー出品機能、購入機能、いいね機能、フォロー機能、カレンダー機能
+
+# データベース設計
+
+# ローカルでの動作方法
