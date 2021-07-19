@@ -27,6 +27,11 @@ class SneakersController < ApplicationController
   end
 
   def update
+    if @sneaker.update(sneaker_params)
+      redirect_to sneaker_path(@sneaker)
+    else
+      render :edit
+    end
   end
 
   def destroy

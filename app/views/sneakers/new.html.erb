@@ -1,11 +1,27 @@
-<div class="contents row">
+<section class="section">
   <div class="container">
-    <h3>新規投稿</h3>
-    <%= form_with(model: @sneaker, local: true) do |f| %>
-      <%= f.text_field :title, placeholder: "sneaker" %>
-      <%= f.file_field :image, placeholder: "sneaker.photo" %>
-      <%= f.text_area :detail, placeholder: "text", rows: "10" %>
-      <%= f.submit "SEND" %>
-    <% end %>
+    <div class="columns is-centered">
+      <div class="column is-6">
+        <%= form_with(model: @sneaker, local: true) do |f| %>
+
+          <div class="field">
+            <%= f.label :image, "写真", class: "label" %>
+            <%= f.file_field :image, class: "input" %>
+          </div>
+
+          <div class="field">
+            <%= f.label :title, "スニーカー名", class: "label" %>
+            <%= f.text_field :title, class: "input" %>
+          </div>
+
+          <div class="field">
+            <%= f.label :detail, "説明", class: "label" %>
+            <%= f.text_area :detail, class: "textarea" %>
+          </div>
+
+          <%= f.submit '投稿', class: "button is-success" %>
+        <% end %>
+      </div>
+    </div>
   </div>
-</div>
+</section>
