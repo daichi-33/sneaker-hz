@@ -1,11 +1,11 @@
 <div class="contents row">
   <div class="container">
     <h3>新規投稿</h3>
-    <%= form_with(model: @sneaker, local: true) do |form| %>
-      <%= form.text_field :name, placeholder: "sneaker" %>
-      <%= form.text_field :image, placeholder: "" %>
-      <%= form.text_area :detail, placeholder: "text", rows: "10" %>
-      <%= form.submit "SEND" %>
+    <%= form_with(model: @sneaker, local: true) do |f| %>
+      <%= f.text_field :title, placeholder: "sneaker" %>
+      <%= f.file_field :image, placeholder: "sneaker.photo" %>
+      <%= f.text_area :detail, placeholder: "text", rows: "10" %>
+      <%= f.submit "SEND" %>
     <% end %>
   </div>
 </div>

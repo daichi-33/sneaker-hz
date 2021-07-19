@@ -1,13 +1,15 @@
 class SneakersController < ApplicationController
   def index
+    # @sneaker = Sneaker.all
     @sneakers = Sneaker.order('created_at DESC')
   end
 
   def new
+    @sneaker = Sneaker.new
   end
 
   def create
-    @sneaker = sneaker.new(sneaker_params)
+    @sneaker = Sneaker.new(sneaker_params)
     if @sneaker.save
       redirect_to root_path
     else

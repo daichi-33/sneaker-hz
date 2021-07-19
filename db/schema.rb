@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 2021_07_19_002307) do
   create_table "sneakers", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.string "title", null: false
-    t.text "description", null: false
+    t.text "detail", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["user_id"], name: "index_sneakers_on_user_id"
