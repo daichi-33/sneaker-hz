@@ -1,6 +1,9 @@
 class SneakersController < ApplicationController
+  before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
+  before_action :set_sneaker, only: [:show, :edit, :update, :destroy]
+  before_action :move_to_index, only: [:edit, :update, :destroy]
+
   def index
-    # @sneaker = Sneaker.all
     @sneakers = Sneaker.order('created_at DESC')
   end
 
@@ -17,8 +20,30 @@ class SneakersController < ApplicationController
     end
   end
 
+  def show
+  end
+
+  def edit
+  end
+
+  def update
+  end
+
+  def destroy
+    redirect_to root_path if @sneaker.destroy
+  end
+
   private
   def sneaker_params
     params.require(:sneaker).permit(:title, :image, :detail).merge(user_id: current_user.id)
   end
+
+  def set_sneaker
+    @sneaker = Sneaker.find(params[:id])
+  end
+
+  def move_to_index
+    redirect_to root_path if current_user.id != @sneaker.user_id
+  end
+
 end
