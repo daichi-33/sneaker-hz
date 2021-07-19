@@ -1,13 +1,13 @@
 <p>トップページ</p>
 <div class="sneaker content">
-  <h2 class='title'>新規投稿</h2>
+  <h2 class='title'>投稿一覧</h2>
     <%# <div class="subtitle" >
       最新順
     </div> %>
-    <ul class='item-lists'>
+    <ul class='sneaker-lists'>
       <% @sneakers.each do |sneaker| %>
       <li class='list'>
-        <%# <%= link_to sneaker_path(sneaker.id) do %> 
+        <%= link_to sneaker_path(sneaker.id) do %> 
         <div class='sneaker-info'>
           <h3 class='sneaker-title'>
             <%= sneaker.title %>
@@ -16,11 +16,6 @@
         <div class='sneaker-img-content'>
           <%= image_tag sneaker.image, class: "sneaker-img" %>
         </div>
-        <div class='sneaker-description'>
-          <h3 class='sneaker-detail'>
-            <%= sneaker.detail %>
-          </h3>
-        </div>
-        <%# <% end %>  
+        <% end %>  
       </li>
       <% end %>
