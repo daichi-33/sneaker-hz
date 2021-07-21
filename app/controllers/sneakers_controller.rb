@@ -21,6 +21,8 @@ class SneakersController < ApplicationController
   end
 
   def show
+    @comment = Comment.new
+    @comments = @sneaker.comments.includes(:user)
   end
 
   def edit

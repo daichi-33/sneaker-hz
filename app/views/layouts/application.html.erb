@@ -5,16 +5,15 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <link href="css/bulma.min.css" rel="stylesheet">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <nav class="navbar is-warning">
+    <nav class="navbar">
       <div class="navbar-brand">
         <%= link_to root_path, class: "navbar-item" do %>
-          <h1 class="title is-4" style="font-family: cursive;">Sneaker-Hz</h1>
+          <h1 class="title is-3" style="font-family: cursive;">Sneaker-Hz</h1>
         <% end %>
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
@@ -25,47 +24,42 @@
 
       <% if user_signed_in? %>
         <div id="navbarExampleTransparentExample" class="navbar-menu">
-          <div class="navbar-item">
-            <%= link_to "スニーカー一覧", sneakers_path, class: "navbar-item button is-warning is-light" %>
-          </div>
-          <div class="navbar-item">
-            <%= link_to "スニーカー投稿", new_sneaker_path, class: "navbar-item button is-warning is-light" %>
-          </div>
-
           <div class="navbar-end">
             <div class="navbar-item">
-              <div class="field is-grouped">
-                <p class="control">
-                  <%= link_to "スニーカーヘッズ一覧", users_path, class: " button is-warning is-light" %>
-                </p>
-                <p class="control">
-                  <%= link_to "マイページ", user_path(current_user), class: "button is-warning is-light" %>
-                </p>
-                <p class="control">
-                  <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "button is-warning is-light" %>
-                </p>
-              </div>
+              <%= link_to "マイページ", user_path(current_user), class: "button is-warning is-light" %>
+            </div>
+            <div class="navbar-item">
+              <%= link_to "投稿一覧", sneakers_path, class: "navbar-item button is-warning is-light" %>
+            </div>
+            <div class="navbar-item">
+              <%= link_to "スニーカー投稿", new_sneaker_path, class: "navbar-item button is-warning is-light" %>
+            </div>
+            <div class="navbar-item">
+              <%= link_to "スニーカーヘッズ一覧", users_path, class: " button is-warning is-light" %>
+            </div>
+            <div class="navbar-item">
+              <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "button is-warning is-light" %>
             </div>
           </div>
         </div>
       <% else %>
         <div id="navbarExampleTransparentExample" class="navbar-menu">
-          <div class="navbar-item">
-            <%= link_to "スニーカー一覧", sneakers_path, class: "navbar-item button is-warning is-light" %>
-          </div>
-          <div class="navbar-item">
-            <%= link_to "スニーカーヘッズ一覧", users_path, class: "navbar-item button is-warning is-light" %>
-          </div>
           <div class="navbar-end">
             <div class="navbar-item">
-              <div class="field is-grouped">
-                <p class="control">
-                  <%= link_to "ログイン", new_user_session_path, class: "button is-warning is-light" %>
-                </p>
-                <p class="control">
-                  <%= link_to "新規登録", new_user_registration_path, class: "button is-warning is-light" %>
-                </p>
-              </div>
+               <div class="field is-grouped">
+                  <p class="control">
+                    <%= link_to "投稿一覧", sneakers_path, class: "navbar-item button is-warning is-light" %>
+                  </p>
+                  <p class="control">
+                    <%= link_to "スニーカーヘッズ一覧", users_path, class: "navbar-item button is-warning is-light" %>
+                  </p>
+                  <p class="control">
+                    <%= link_to "新規登録", new_user_registration_path, class: "button is-warning is-light" %>
+                  </p>
+                  <p class="control">
+                    <%= link_to "ログイン", new_user_session_path, class: "button is-warning is-light" %>
+                  </p>
+                </div>
             </div>
           </div>
         </div>
