@@ -1,4 +1,4 @@
-<section class="hero is-success">
+<section class="hero">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -9,7 +9,7 @@
 </section>
 
 <div class='sneaker-img-content'>
-  <%= image_tag @sneaker.image, class: "sneaker-img" %>
+  <%= image_tag @sneaker.image, class: "sneaker-image " %>
 </div>
 
 <div class="card-content">
@@ -30,7 +30,7 @@
     <% if @sneaker.user.id == current_user.id %>
       <%= link_to "編集画面へ", edit_sneaker_path(@sneaker), class: "button is-success" %>
       <p class="or-text">or</p>
-      <%= link_to "削除", sneaker_path(@sneaker), method: :delete, class:"sneaker-destroy" %>
+      <%= link_to "削除", sneaker_path(@sneaker), method: :delete, class:"button is-success" %>
     <% end %>
   </div>
 
@@ -41,7 +41,6 @@
         <%= f.submit "SEND" %>
       <% end %>
     <% else %>
-      <strong><p>※※※ コメントの投稿には新規登録/ログインが必要です ※※※</p></strong> 
     <% end %>
   
 
