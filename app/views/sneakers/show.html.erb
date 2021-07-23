@@ -1,6 +1,6 @@
 <section class="hero">
   <div class="hero-body">
-    <div class="container">
+    <div class="container has-text-centered">
       <h1 class="title">
         スニーカー詳細
       </h1>
@@ -42,15 +42,17 @@
 
             <div class="container">
               <% if user_signed_in? && current_user.id != @sneaker.user_id %>
-                <%= form_with(model: [@sneaker, @comment], local: true) do |f| %>
-                  <%= f.text_area :content, placeholder: "コメントする", rows: "5" %>
+                <%= form_with(model: [@sneaker, @comment], local: true) do |f| %> 
+                  <%= f.text_area :content, placeholder: "コメントする", rows: "5", cols: "120" %> 
+                  <br>
                   <%= f.submit "SEND" %>
                 <% end %>
               <% else %>
               <% end %>
             
-
               <div class="comments">
+              <br>
+              <br>
                 <h4>＜コメント一覧＞</h4>
                   <% @comments.each do |comment| %>
                     <p>
