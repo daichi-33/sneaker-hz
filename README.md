@@ -15,8 +15,8 @@ Sneaker-Hz（スニーカーヘッズ）
 
 
 # テスト用アカウント
-email     :　test1@com<br>
-password  :　test11
+- email     :　test1@com<br>
+- password  :　test11
 
 
 # 利用方法
@@ -58,7 +58,8 @@ password  :　test11
 ## 投稿一覧機能
 [![Image from Gyazo](https://i.gyazo.com/925df3be37632299ec190c23129f90b8.gif)](https://gyazo.com/925df3be37632299ec190c23129f90b8)<br>
 - トップページから「投稿一覧」のボタンを選択します。<br>
-- すると投稿一覧が表示されます。投稿順は最新順となっており、写真の下にスニーカー名が書いてある状態となっています。
+- すると、投稿一覧が表示されます。投稿順は最新順となっており、写真の下にスニーカー名が書いてある状態となっています。<br>
+- 
 
 
 # 使用技術（開発環境）
