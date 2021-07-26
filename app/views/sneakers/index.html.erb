@@ -1,20 +1,34 @@
-<div class="sneaker content">
-  <h2 class='title'>投稿一覧</h2>
-    <%# <div class="subtitle" >
-      最新順
-    </div> %>
-    <ul class='sneaker-lists'>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        投稿一覧
+      </h1>
+    </div>
+  </div>
+</section>
+    
+<section class="section">
+  <div class="container">
+    <div class="columns is-multiline">
       <% @sneakers.each do |sneaker| %>
-      <li class='list'>
-        <%= link_to sneaker_path(sneaker.id) do %> 
-        <div class='sneaker-info'>
-          <h3 class='sneaker-title'>
-            <%= sneaker.title %>
-          </h3>
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-5by4">
+                <%= link_to sneaker_path(sneaker.id) do %> 
+                  <%= image_tag sneaker.image, class: "sneaker-img" %>
+                <% end %>
+              </figure>
+            </div>
+            <div class='sneaker-info'>
+              <h3 class='sneaker-title'>
+                <%= sneaker.title %>
+              </h3>
+            </div>
+          </div>
         </div>
-        <div class='sneaker-img-content'>
-          <%= image_tag sneaker.image, class: "sneaker-img" %>
-        </div>
-        <% end %>  
-      </li>
       <% end %>
+    </div>
+  </div>
+</section>

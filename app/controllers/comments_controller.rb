@@ -9,6 +9,10 @@ class CommentsController < ApplicationController
     end
   end
 
+  def destroy
+    redirect_to root_path if @comment.destroy
+  end
+
   private
   def comment_params
     params.require(:comment).permit(:content).merge(user_id: current_user.id, sneaker_id: params[:sneaker_id])

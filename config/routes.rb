@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   root to: "home#index"
   resources :users
   resources :sneakers do
-    resources :comments, only: :create
+    resources :comments, only: [:create, :destroy]
   end
 end
