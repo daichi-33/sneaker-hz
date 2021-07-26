@@ -45,7 +45,7 @@ Sneaker-Hz（スニーカーヘッズ）
 
 # 実装した機能についての画像やGIFおよびその説明について
 ## ユーザー管理機能
-[![Image from Gyazo](https://i.gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838.gif)](https://gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838)<br>
+![Image from Gyazo](https://i.gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838.gif)](https://gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838)<br>
 - 新規登録画面にて、「ユーザー名」、「メールアドレス」、「パスワード」、「パスワード（確認用）」を入力し、「Sign Up」を押すと、新規登録されてトップページに遷移します。<br>
 - すでに登録されているユーザーはトップページのログインページから、「メールアドレス」、「パスワード」を入力し、「Log in」を押すとログインとなります。<br>
 - トップページの「ログアウト」を押すと、ログアウトされます。
@@ -64,20 +64,23 @@ Sneaker-Hz（スニーカーヘッズ）
 
 # 使用技術（開発環境）
 ### フロントエンド
-HTML/CSS
+- HTML/CSS
 ### バックエンド
-ruby 2.6.5<br>
-Ruby On Rails 6.0.0<br>
+- ruby 2.6.5<br>
+- Ruby On Rails 6.0.0<br>
 ### インフラ
-MySQL 5.6.51<br>
-Sequel Pro<br>
+- MySQL 5.6.51<br>
+- Sequel Pro<br>
 ### その他使用ツール
-Visual Studio Code<br>
-draw.io
+- Visual Studio Code<br>
+- draw.io
 
 
 # 実装予定の機能
-投稿検索機能、スニーカー出品機能、スニーカー購入機能、いいね機能
+- 投稿検索機能
+- スニーカー出品機能
+- スニーカー購入機能
+- いいね機能
 
 # データベース設計
 
