@@ -51,7 +51,7 @@ Sneaker-Hz（スニーカーヘッズ）
 - トップページの「ログアウト」を押すと、ログアウトされます。
 
 ## 写真付投稿機能
-![Image from Gyazo](https://i.gyazo.com/2892b621b7a9e2f76ebe6a094b30450d.gif)](https://gyazo.com/2892b621b7a9e2f76ebe6a094b30450d)<br>
+![[Image from Gyazo](https://i.gyazo.com/2892b621b7a9e2f76ebe6a094b30450d.gif)](https://gyazo.com/2892b621b7a9e2f76ebe6a094b30450d)<br>
 - ファイルから投稿したい写真を選択します。<br>
 - 投稿するスニーカ名、スニーカーの説明文を記入し、「投稿」ボタンを押すとトップページに遷移します。
 
