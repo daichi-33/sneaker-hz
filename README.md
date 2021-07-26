@@ -30,6 +30,22 @@ Sneaker-Hz（スニーカーヘッズ）
 ユーザー管理機能<br>
 
 
+# 使用技術（開発環境）
+### フロントエンド
+HTML/CSS
+### バックエンド
+ruby 2.6.5<br>
+Ruby On Rails 6.0.0<br>
+### インフラ
+MySQL 5.6.51<br>
+Sequel Pro<br>
+
+### その他使用ツール
+Visual Studio Code<br>
+draw.io
+### 
+
+
 # 実装予定の機能
 スニーカー出品機能、購入機能、いいね機能
 
