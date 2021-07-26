@@ -15,7 +15,7 @@ Sneaker-Hz（スニーカーヘッズ）
 
 
 # テスト用アカウント
-テスト用email   :test1@com
+テスト用email   :test1@com<br>
 テスト用password:test11
 
 
