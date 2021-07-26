@@ -45,13 +45,13 @@ Sneaker-Hz（スニーカーヘッズ）
 
 # 実装した機能についての画像やGIFおよびその説明について
 ## ユーザー管理機能
-[![Image from Gyazo](https://i.gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838.gif)](https://gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838.gif)
+[![Image from Gyazo](https://i.gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838.gif)](https://gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838)
 - 新規登録画面にて、「ユーザー名」、「メールアドレス」、「パスワード」、「パスワード（確認用）」を入力し、「Sign Up」を押すと、新規登録されてトップページに遷移します。<br>
 - すでに登録されているユーザーはトップページのログインページから、「メールアドレス」、「パスワード」を入力し、「Log in」を押すとログインとなります。<br>
 - トップページの「ログアウト」を押すと、ログアウトされます。
 
 ## 写真付投稿機能
-[![Image from Gyazo](https://i.gyazo.com/2892b621b7a9e2f76ebe6a094b30450d.gif)](https://gyazo.com/2892b621b7a9e2f76ebe6a094b30450d)<br>
+![Image from Gyazo](https://i.gyazo.com/2892b621b7a9e2f76ebe6a094b30450d.gif)](https://gyazo.com/2892b621b7a9e2f76ebe6a094b30450d)<br>
 - ファイルから投稿したい写真を選択します。<br>
 - 投稿するスニーカ名、スニーカーの説明文を記入し、「投稿」ボタンを押すとトップページに遷移します。
 
