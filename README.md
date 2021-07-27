@@ -18,7 +18,7 @@ Sneaker-Hz（スニーカーヘッズ）
 
 # テスト用アカウント
 - メールアドレス : test1@com<br>
-- パスワード : 
+- パスワード : test11
 <br>
 <br>
 
@@ -61,8 +61,7 @@ Sneaker-Hz（スニーカーヘッズ）
 - 投稿するスニーカ名、スニーカーの説明文を記入し、「投稿」ボタンを押すとトップページに遷移します。<br>
 
 ## 投稿一覧機能
-[![Image from Gyazo](https://i.gyazo.com/925df3be37632299ec190c23129f90b8.gif)](https://gyazo.com/925df3be37632299ec190c23129f90b8)
-<br>
+[![Image from Gyazo](https://i.gyazo.com/925df3be37632299ec190c23129f90b8.gif)](https://gyazo.com/925df3be37632299ec190c23129f90b8)<br>
 - トップページから「投稿一覧」のボタンを選択します。<br>
 - すると、投稿一覧が表示されます。投稿順は最新順となっており、写真の下にスニーカー名が書いてある状態となっています。<br>
 
