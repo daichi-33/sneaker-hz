@@ -50,23 +50,23 @@ Sneaker-Hz（スニーカーヘッズ）
 
 # 実装した機能についての画像やGIFおよびその説明について
 ## ユーザー管理機能
-[![Image from Gyazo](https://i.gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838.gif)](https://gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838)<br>
+[![Image from Gyazo](https://i.gyazo.com/8ea8f4a21e01587119ac243419dcd165.gif)](https://gyazo.com/8ea8f4a21e01587119ac243419dcd165)<br>
 - 新規登録画面にて、「ユーザー名」、「メールアドレス」、「パスワード」、「パスワード（確認用）」を入力し、「Sign Up」を押すと、新規登録されてトップページに遷移します。<br>
 - すでに登録されているユーザーはトップページのログインページから、「メールアドレス」、「パスワード」を入力し、「Log in」を押すとログインとなります。<br>
 - トップページの「ログアウト」を押すと、ログアウトされます。
 
 ## 写真付投稿機能
-[![Image from Gyazo](https://i.gyazo.com/2892b621b7a9e2f76ebe6a094b30450d.gif)](https://gyazo.com/2892b621b7a9e2f76ebe6a094b30450d)<br>
+[![Image from Gyazo](https://i.gyazo.com/6957c33217b6c082e72a9008399d46b6.gif)](https://gyazo.com/6957c33217b6c082e72a9008399d46b6)<br>
 - ファイルから投稿したい写真を選択します。<br>
 - 投稿するスニーカ名、スニーカーの説明文を記入し、「投稿」ボタンを押すとトップページに遷移します。<br>
 
 ## 投稿一覧機能
-[![Image from Gyazo](https://i.gyazo.com/925df3be37632299ec190c23129f90b8.gif)](https://gyazo.com/925df3be37632299ec190c23129f90b8)<br>
+[![Image from Gyazo](https://i.gyazo.com/b6ffa225a218bd354aeb53b934ce5da3.gif)](https://gyazo.com/b6ffa225a218bd354aeb53b934ce5da3)<br>
 - トップページから「投稿一覧」のボタンを選択します。<br>
 - すると、投稿一覧が表示されます。投稿順は最新順となっており、写真の下にスニーカー名が書いてある状態となっています。<br>
 
 ## 投稿詳細機能
-[![Image from Gyazo](https://i.gyazo.com/d988dbc37df85f5bf66c07ce75969107.gif)](https://gyazo.com/d988dbc37df85f5bf66c07ce75969107)<br>
+[![Image from Gyazo](https://i.gyazo.com/af2a12fded26cc9e9a6045cc1261d56d.gif)](https://gyazo.com/af2a12fded26cc9e9a6045cc1261d56d)<br>
 - 投稿一覧ページの投稿写真をクリックすると、投稿詳細ページへ遷移します。<br>
 - 投稿詳細ページでは、投稿者は投稿編集、投稿削除をすることができます。投稿者以外のユーザーは投稿にコメントをすることができます。<br>
 
@@ -76,14 +76,14 @@ Sneaker-Hz（スニーカーヘッズ）
 - 編集ボタンを押すと投稿詳細ページに遷移し、編集完了となります。<br>
 
 ## 投稿削除機能
-[![Image from Gyazo](https://i.gyazo.com/630ad974b3ea05250212c1d6edd86025.gif)](https://gyazo.com/630ad974b3ea05250212c1d6edd86025)<br>
+[![Image from Gyazo](https://i.gyazo.com/fdbf26c0449b8d4e2498bb0d34ad3b66.gif)](https://gyazo.com/fdbf26c0449b8d4e2498bb0d34ad3b66)<br>
 - 投稿者のみ、投稿削除をすることができます。<br>
 - 削除ボタンを押すと、トップページに遷移し、投稿一覧から投稿が削除された状態になります。<br>
 
 ## コメント投稿機能
-[![Image from Gyazo](https://i.gyazo.com/b7abe93b1141785d7871c1b682691fbd.gif)](https://gyazo.com/b7abe93b1141785d7871c1b682691fbd)<br>
+[![Image from Gyazo](https://i.gyazo.com/43804d996cb04fc0aecda3f3a98dbf7c.gif)](https://gyazo.com/43804d996cb04fc0aecda3f3a98dbf7c)<br>
 - 投稿詳細ページを下にスクロールすると、コメント欄があり、投稿者以外のユーザーがコメントできるようになっています。<br>
-- コメント完了後、コメント欄の下の「コメント一覧」に「コメントしたユーザー名」・「コメント内容」が表示されます。<br>
+- コメント完了後コメント欄の下の「コメント一覧」に、「コメントしたユーザー名」・「コメント内容」が表示されます。<br>
 
 # 使用技術（開発環境）
 ### 【フロントエンド】
