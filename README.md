@@ -50,7 +50,7 @@ Sneaker-Hz（スニーカーヘッズ）
 
 # 実装した機能についての画像やGIFおよびその説明について
 ## ユーザー管理機能
-[![Image from Gyazo](https://i.gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838.gif)](https://gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838)
+[![Image from Gyazo](https://i.gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838.gif)](https://gyazo.com/3ccc19a39298a6b53d4ab4e6ff446838)<br>
 - 新規登録画面にて、「ユーザー名」、「メールアドレス」、「パスワード」、「パスワード（確認用）」を入力し、「Sign Up」を押すと、新規登録されてトップページに遷移します。<br>
 - すでに登録されているユーザーはトップページのログインページから、「メールアドレス」、「パスワード」を入力し、「Log in」を押すとログインとなります。<br>
 - トップページの「ログアウト」を押すと、ログアウトされます。
@@ -61,15 +61,30 @@ Sneaker-Hz（スニーカーヘッズ）
 - 投稿するスニーカ名、スニーカーの説明文を記入し、「投稿」ボタンを押すとトップページに遷移します。<br>
 
 ## 投稿一覧機能
-[![Image from Gyazo](https://i.gyazo.com/925df3be37632299ec190c23129f90b8.gif)](https://gyazo.com/925df3be37632299ec190c23129f90b8)<br>
+[![Image from Gyazo](https://i.gyazo.com/925df3be37632299ec190c23129f90b8.gif)](https://gyazo.com/925df3be37632299ec190c23129f90b8)
+<br>
 - トップページから「投稿一覧」のボタンを選択します。<br>
 - すると、投稿一覧が表示されます。投稿順は最新順となっており、写真の下にスニーカー名が書いてある状態となっています。<br>
 
 ## 投稿詳細機能
-
+[![Image from Gyazo](https://i.gyazo.com/d988dbc37df85f5bf66c07ce75969107.gif)](https://gyazo.com/d988dbc37df85f5bf66c07ce75969107)<br>
 - 投稿一覧ページの投稿写真をクリックすると、投稿詳細ページへ遷移します。<br>
 - 投稿詳細ページでは、投稿者は投稿編集、投稿削除をすることができます。投稿者以外のユーザーは投稿にコメントをすることができます。<br>
 
+## 投稿編集機能
+[![Image from Gyazo](https://i.gyazo.com/841915785a4816672ca31266c7092594.gif)](https://gyazo.com/841915785a4816672ca31266c7092594)<br>
+- 投稿者のみ、投稿編集をすることができます。<br>
+- 編集ボタンを押すと投稿詳細ページに遷移し、編集完了となります。<br>
+
+## 投稿削除機能
+[![Image from Gyazo](https://i.gyazo.com/630ad974b3ea05250212c1d6edd86025.gif)](https://gyazo.com/630ad974b3ea05250212c1d6edd86025)<br>
+- 投稿者のみ、投稿削除をすることができます。<br>
+- 削除ボタンを押すと、トップページに遷移し、投稿一覧から投稿が削除された状態になります。<br>
+
+## コメント投稿機能
+[![Image from Gyazo](https://i.gyazo.com/b7abe93b1141785d7871c1b682691fbd.gif)](https://gyazo.com/b7abe93b1141785d7871c1b682691fbd)<br>
+- 投稿詳細ページを下にスクロールすると、コメント欄があり、投稿者以外のユーザーがコメントできるようになっています。<br>
+- コメント完了後、コメント欄の下の「コメント一覧」に「コメントしたユーザー名」・「コメント内容」が表示されます。<br>
 
 # 使用技術（開発環境）
 ### 【フロントエンド】
@@ -96,9 +111,13 @@ Sneaker-Hz（スニーカーヘッズ）
 - いいね機能
   - 良いと思った投稿に対して、「いいね」という気持ちを伝えることができます
   - 「いいね」によって、投稿者も嬉しい気持ちになり、コミュニティの活性化に繋がると考えます 
+  <br>
+  <br>
 
 # ER図
-[![Image from Gyazo](https://i.gyazo.com/4d0bd6bcab92c8bfe6111c7ef2bbe7cb.png)](https://gyazo.com/4d0bd6bcab92c8bfe6111c7ef2bbe7cb)
+[![Image from Gyazo](https://i.gyazo.com/0b0ad9f0793612f242c87736f5b810c0.png)](https://gyazo.com/0b0ad9f0793612f242c87736f5b810c0)
+<br>
+<br>
 
 # データベース設計
 
