@@ -62,17 +62,19 @@ Sneaker-Hz（スニーカーヘッズ）
 - トップページの「ログアウト」を押すと、ログアウトされます。
 
 ## 写真付投稿機能
-[![Image from Gyazo](https://i.gyazo.com/6957c33217b6c082e72a9008399d46b6.gif)](https://gyazo.com/6957c33217b6c082e72a9008399d46b6)<br>
+![Image from Gyazo](https://user-images.githubusercontent.com/85209776/127266293-1e6af7e5-200d-44b4-9492-116f49800b5c.gif)<br>
 - ファイルから投稿したい写真を選択します。<br>
 - 投稿するスニーカ名、スニーカーの説明文を記入し、「投稿」ボタンを押すとトップページに遷移します。<br>
 
 ## 投稿一覧機能
-[![Image from Gyazo](https://i.gyazo.com/b6ffa225a218bd354aeb53b934ce5da3.gif)](https://gyazo.com/b6ffa225a218bd354aeb53b934ce5da3)<br>
+![Image from Gyazo](https://user-images.githubusercontent.com/85209776/127266593-01e534b3-538e-4087-bfee-526d3f3fc589.gif)
+<br>
 - トップページから「投稿一覧」のボタンを選択します。<br>
 - すると、投稿一覧が表示されます。投稿順は最新順となっており、写真の下にスニーカー名が書いてある状態となっています。<br>
 
 ## 投稿詳細機能
-[![Image from Gyazo](https://i.gyazo.com/af2a12fded26cc9e9a6045cc1261d56d.gif)](https://gyazo.com/af2a12fded26cc9e9a6045cc1261d56d)<br>
+![Image from Gyazo](https://user-images.githubusercontent.com/85209776/127266805-f1d61475-5c15-4509-819a-e96a62ae78e4.gif)
+<br>
 - 投稿一覧ページの投稿写真をクリックすると、投稿詳細ページへ遷移します。<br>
 - 投稿詳細ページでは、投稿者は投稿編集、投稿削除をすることができます。投稿者以外のユーザーは投稿にコメントをすることができます。<br>
 
@@ -82,12 +84,14 @@ Sneaker-Hz（スニーカーヘッズ）
 - 編集ボタンを押すと投稿詳細ページに遷移し、編集完了となります。<br>
 
 ## 投稿削除機能
-[![Image from Gyazo](https://i.gyazo.com/fdbf26c0449b8d4e2498bb0d34ad3b66.gif)](https://gyazo.com/fdbf26c0449b8d4e2498bb0d34ad3b66)<br>
+![Image from Gyazo](https://user-images.githubusercontent.com/85209776/127266998-3717907d-355a-4df7-831f-6b22cbf1c665.gif)
+<br>
 - 投稿者のみ、投稿削除をすることができます。<br>
 - 削除ボタンを押すと、トップページに遷移し、投稿一覧から投稿が削除された状態になります。<br>
 
 ## コメント投稿機能
-[![Image from Gyazo](https://i.gyazo.com/43804d996cb04fc0aecda3f3a98dbf7c.gif)](https://gyazo.com/43804d996cb04fc0aecda3f3a98dbf7c)<br>
+![Image from Gyazo](https://user-images.githubusercontent.com/85209776/127267191-9630d5d4-6591-4094-8ae5-30c354014fc8.gif)
+<br>
 - 投稿詳細ページを下にスクロールすると、コメント欄があり、投稿者以外のユーザーがコメントできるようになっています。<br>
 - コメント完了後コメント欄の下の「コメント一覧」に、「コメントしたユーザー名」・「コメント内容」が表示されます。<br>
 
