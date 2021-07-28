@@ -167,8 +167,8 @@ has_many :comments
 
 ### Association
 
-belongs_to :user
-belongs_to :sneaker
+- belongs_to :user
+- belongs_to :sneaker
 
 ## exhibitions テーブル(出品情報)
 
@@ -185,8 +185,8 @@ belongs_to :sneaker
 
 ### Association
 
-belongs_to :user
-belongs_to :buyer
+- belongs_to :user
+- belongs_to :buyer
 
 ## buyers テーブル (購入者記録)
 
@@ -197,9 +197,9 @@ belongs_to :buyer
 
 ### Association
 
-belongs_to :user
-belongs_to :sneaker
-has_one :shopping_infos
+- belongs_to :user
+- belongs_to :sneaker
+- has_one :shopping_infos
 
 ## shopping_infos テーブル（配送先情報）
 
@@ -214,4 +214,4 @@ has_one :shopping_infos
 
 ### Association
 
- belongs_to :buyer
+ - belongs_to :buyer
