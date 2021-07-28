@@ -2,17 +2,17 @@
 
 
 # アプリケーション名
-Sneaker-Hz（スニーカーヘッズ）
+- Sneaker-Hz（スニーカーヘッズ）
 <br>
 <br>
 
 # アプリケーションの概要
-スニーカー情報の共有アプリを作成しました。<br>
-このアプリでは、主にスニーカーに関する投稿・閲覧・コメントとスニーカーの売買ができる仕様となっています。<br>
+- スニーカー情報の共有アプリを作成しました。<br>
+- このアプリでは、主にスニーカーに関する投稿・閲覧・コメントとスニーカーの売買ができる仕様となっています。<br>
 <br>
 
 # URL
-[Sneaker-Hz URL](https://sneaker-hz.herokuapp.com/)
+- [Sneaker-Hz URL](https://sneaker-hz.herokuapp.com/)
 <br>
 <br>
 
