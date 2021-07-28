@@ -17,14 +17,14 @@
 <br>
 
 # Basic認証
-- ID  ：daichi33
+- ID：daichi33
 - PASS：utmydit33
 <br>
 <br>
 
 # テスト用アカウント
 - メールアドレス : test1@com
-- パスワード    : test11
+- パスワード : test11
 <br>
 <br>
 
