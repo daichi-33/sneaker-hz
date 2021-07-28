@@ -140,9 +140,9 @@ Sneaker-Hz（スニーカーヘッズ）
 
 ### Association
 
- has_many :sneakers
- has_many :comments
- has_many :exhibitions
+ - has_many :sneakers
+ - has_many :comments
+ - has_many :exhibitions
  
 ## sneakers テーブル (スニーカー情報)
 
@@ -154,8 +154,8 @@ Sneaker-Hz（スニーカーヘッズ）
 
 ### Association
 
-belongs_to :user
-has_many :comments
+- belongs_to :user
+- has_many :comments
 
 ## comments テーブル (コメント情報)
 
