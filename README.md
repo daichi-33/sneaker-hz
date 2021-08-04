@@ -111,7 +111,7 @@
 - MySQL 5.6.51<br>
 - Sequel Pro<br>
 - AWS
-　　-　S3 
+  - S3 
 　<br>
 ### 【その他使用ツール】
 - Visual Studio Code<br>
